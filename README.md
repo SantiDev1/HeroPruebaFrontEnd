@@ -15,7 +15,7 @@ Marvel Prototype es una aplicación web de una sola página (Single Page Applica
 
 ## Requisitos
 
-- Node.js (versión 18.13.0)
+- Node.js (versión 20.18.0)
 - Angular CLI (versión  18.2.8)
 
 ## Instalación
