@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'fonts/Rene Bieder - Franca DEMO Book.otf';
+    src: url('../public/fonts/Rene\ Bieder\ -\ Franca\ DEMO\ Book.otf') format('otf'),
+         url('../public/fonts/Rene\ Bieder\ -\ Franca\ DEMO\ Book.otf') format('otf');
+    font-weight: normal; 
+    font-style: normal;  
+  }
+  
+
+
+  

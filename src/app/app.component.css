@@ -1,0 +1,125 @@
+.nav-hero{
+    background-color: transparent;
+}
+
+.special-card {
+      
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    }
+
+.progressBar {
+        display: block;
+        height: 20px;
+        width: 100%;
+    }
+    
+.likes {
+        background-color: rgba(27, 192, 170, 0.678);
+        float: left;
+        padding: 0px;
+        height: 100%;
+        margin: 0px;
+        
+    }
+
+    .likeheros {
+        background-color: rgba(27, 192, 170, 0.678);
+        float: left;
+        padding: 6px;
+        height: 70%;
+        margin: 0px;
+        
+    }
+
+    .dislikesheros {
+        background-color: rgba(255, 230, 0, 0.692);
+        float: right;
+        padding: 6px;
+        margin: 0px;
+        height: 70%;
+        width: 100%;
+        
+    }
+    
+.dislikes {
+        background-color: rgba(255, 230, 0, 0.692);
+        float: right;
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    .subrayar {
+        
+        text-decoration: underline;
+    }
+
+    @media only screen and (max-width: 576px) { 
+        .navbar-brand img {
+          width: 50px; 
+        }
+      
+        .navbar-nav .nav-link {
+          font-size: 0.9rem; 
+          padding: 0.5rem; 
+        }
+      
+        .special-card {
+          
+          margin: -29%; 
+    
+        }
+      
+        .special-card .card-body h1, 
+        .special-card .card-body h6 {
+          font-size: 1.1rem; 
+          
+        }
+      
+        .progressBar {
+          height: 3rem; 
+        }
+      
+        .row.px-3 {
+          flex-direction: column; 
+          text-align: center;
+        }
+      
+        .row.px-3 h1 {
+          font-size: 1.2rem; 
+        }
+      
+        .btn-outline-light {
+          font-size: 0.9rem; 
+        }
+      
+        footer .list-inline-item {
+          font-size: 0.8rem; 
+        }
+        
+        .col-5 {
+          width: 100%; 
+          margin-bottom: 20px; 
+        }
+      }
+      
+
+    a {
+        font-family: 'fonts/Rene Bieder - Franca DEMO Book.otf', sans-serif;
+    }
+
+    h1 {
+        font-family: 'fonts/Rene Bieder - Franca DEMO Book.otf', sans-serif;
+    }
+
+    h5 {
+        font-family: 'fonts/Rene Bieder - Franca DEMO Book.otf', sans-serif;
+    }
+
+    p {
+        font-family: 'fonts/Rene Bieder - Franca DEMO Book.otf', sans-serif;
+    }
